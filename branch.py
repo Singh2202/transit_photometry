@@ -51,7 +51,7 @@ minima_found = False
 if len(l2) == 0:
     no_planets = True
 
-if len(l2) == 1:
+elif len(l2) == 1:
     minima_found = True
     number_of_planets = 1
 
