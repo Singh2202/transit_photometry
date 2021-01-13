@@ -35,4 +35,5 @@ for a_tuple in tuples:
                 a_class.append(a_tuple[0]) # append to the class list the x coord associated with that flux
 
 for index in range(len(list_of_classes)):
-    list_of_classes[index] = list_of_classes[index][len(list_of_classes[index])//2:] #split internal class lists in half so that only the x_coords remain, b/c as many x_coords as fluxes by def
+    list_of_classes[index] = list_of_classes[index][len(list_of_classes[index])//2:] #split internal class lists in half so that only the x_coords remain, 
+    #b/c as many x_coords as fluxes by def
