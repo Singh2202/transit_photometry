@@ -18,7 +18,6 @@ for value in min_fluxes:
     minimum = [list_of_differences[0][0], list_of_differences[0][1]]  #tuple of flux and the base case closest to it
     correspondence_list.append(minimum)
     
-
 list_of_classes = [[] for n in range(len(unique_fluxes))] #create list of lists with as many lists as unique_fluxes
 
 for index in range(len(list_of_classes)): #populate each blank list with one unqiue flux
@@ -28,8 +27,7 @@ for a_class in list_of_classes: #each list will correspond to one class of flux
     for value in correspondence_list:
         if value[0] in a_class: #if the base case for each flux is equal to the base case in the list
             a_class.append(value[1]) #append to the flux class the non-base flux
-
-print(tuples)
+            
 for a_tuple in tuples:
     for a_class in list_of_classes:
         for element in a_class: 
