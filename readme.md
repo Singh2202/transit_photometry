@@ -1,5 +1,6 @@
 List 1: 
 [(29.60547057299982, [2160.5304155150002, 2190.135886088]), (28.645026927999879, [2177.958676923, 2206.6037038509999])]
+
 The 29.6 and 28.6 are periods. 2160 and 2190 are times. The flux at 2160 was close enough to the flux at 2190 that they are said to be in the same class. Likewise, the flux at time 2177 was close enough to the flux at time 2206 that they were considered to be in the same class. The grouping is based on relative magnitude of flux. In this case, there are two classes in list 1.
 
 List 2: 
